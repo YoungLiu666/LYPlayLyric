@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		328EE5B577E79FD393E96352 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3F3077F700B9B1AE64C50 /* libPods.a */; };
+		CD5858551CA0354600CC753D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5858541CA0354600CC753D /* main.m */; };
+		CD5858581CA0354600CC753D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5858571CA0354600CC753D /* AppDelegate.m */; };
+		CD58585B1CA0354600CC753D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD58585A1CA0354600CC753D /* ViewController.m */; };
+		CD58585E1CA0354600CC753D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD58585C1CA0354600CC753D /* Main.storyboard */; };
+		CD5858601CA0354600CC753D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD58585F1CA0354600CC753D /* Assets.xcassets */; };
+		CD5858631CA0354600CC753D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5858611CA0354600CC753D /* LaunchScreen.storyboard */; };
+		CD58586E1CA0354600CC753D /* _____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD58586D1CA0354600CC753D /* _____________Tests.m */; };
+		CD5858791CA0354600CC753D /* _____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5858781CA0354600CC753D /* _____________UITests.m */; };
+		CD5858871CA0356000CC753D /* lll.Krc in Resources */ = {isa = PBXBuildFile; fileRef = CD5858861CA0356000CC753D /* lll.Krc */; };
+		CD58588C1CA0358F00CC753D /* KRC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5858891CA0358F00CC753D /* KRC.m */; };
+		CD58588D1CA0358F00CC753D /* LyricsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CD58588B1CA0358F00CC753D /* LyricsUtil.m */; };
+		CD5858971CA039A700CC753D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5858961CA039A600CC753D /* AVFoundation.framework */; };
+		CD58589C1CA0F5AA00CC753D /* LyricsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD58589B1CA0F5AA00CC753D /* LyricsView.m */; };
+		CD58589E1CA10FDB00CC753D /* vocal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD58589D1CA10FDB00CC753D /* vocal.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD58586A1CA0354600CC753D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5858481CA0354600CC753D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD58584F1CA0354600CC753D;
+			remoteInfo = "高仿酷狗音乐歌词逐渐字播放";
+		};
+		CD5858751CA0354600CC753D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5858481CA0354600CC753D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD58584F1CA0354600CC753D;
+			remoteInfo = "高仿酷狗音乐歌词逐渐字播放";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1917C8426BA4FD1EFD24912A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		41C3F3077F700B9B1AE64C50 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90002BDE62BE42A79B7738C3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5858501CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高仿酷狗音乐歌词逐渐字播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5858541CA0354600CC753D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD5858561CA0354600CC753D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD5858571CA0354600CC753D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD5858591CA0354600CC753D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD58585A1CA0354600CC753D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD58585D1CA0354600CC753D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD58585F1CA0354600CC753D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5858621CA0354600CC753D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD5858641CA0354600CC753D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5858691CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高仿酷狗音乐歌词逐渐字播放Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD58586D1CA0354600CC753D /* _____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________Tests.m"; sourceTree = "<group>"; };
+		CD58586F1CA0354600CC753D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5858741CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高仿酷狗音乐歌词逐渐字播放UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5858781CA0354600CC753D /* _____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________UITests.m"; sourceTree = "<group>"; };
+		CD58587A1CA0354600CC753D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5858861CA0356000CC753D /* lll.Krc */ = {isa = PBXFileReference; lastKnownFileType = file; path = lll.Krc; sourceTree = "<group>"; };
+		CD5858881CA0358F00CC753D /* KRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRC.h; sourceTree = "<group>"; };
+		CD5858891CA0358F00CC753D /* KRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRC.m; sourceTree = "<group>"; };
+		CD58588A1CA0358F00CC753D /* LyricsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsUtil.h; sourceTree = "<group>"; };
+		CD58588B1CA0358F00CC753D /* LyricsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsUtil.m; sourceTree = "<group>"; };
+		CD5858961CA039A600CC753D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD58589A1CA0F5AA00CC753D /* LyricsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsView.h; sourceTree = "<group>"; };
+		CD58589B1CA0F5AA00CC753D /* LyricsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsView.m; sourceTree = "<group>"; };
+		CD58589D1CA10FDB00CC753D /* vocal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vocal.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD58584D1CA0354600CC753D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5858971CA039A700CC753D /* AVFoundation.framework in Frameworks */,
+				328EE5B577E79FD393E96352 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5858661CA0354600CC753D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5858711CA0354600CC753D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD70855395F13FCEBE4F362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C3F3077F700B9B1AE64C50 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD5858471CA0354600CC753D = {
+			isa = PBXGroup;
+			children = (
+				CD5858961CA039A600CC753D /* AVFoundation.framework */,
+				CD5858521CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放 */,
+				CD58586C1CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放Tests */,
+				CD5858771CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放UITests */,
+				CD5858511CA0354600CC753D /* Products */,
+				FA091B529FBFCBAC740BDD53 /* Pods */,
+				CCD70855395F13FCEBE4F362 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5858511CA0354600CC753D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5858501CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放.app */,
+				CD5858691CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放Tests.xctest */,
+				CD5858741CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5858521CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放 */ = {
+			isa = PBXGroup;
+			children = (
+				CD5858881CA0358F00CC753D /* KRC.h */,
+				CD5858891CA0358F00CC753D /* KRC.m */,
+				CD58588A1CA0358F00CC753D /* LyricsUtil.h */,
+				CD58588B1CA0358F00CC753D /* LyricsUtil.m */,
+				CD58589A1CA0F5AA00CC753D /* LyricsView.h */,
+				CD58589B1CA0F5AA00CC753D /* LyricsView.m */,
+				CD5858561CA0354600CC753D /* AppDelegate.h */,
+				CD5858571CA0354600CC753D /* AppDelegate.m */,
+				CD5858591CA0354600CC753D /* ViewController.h */,
+				CD58585A1CA0354600CC753D /* ViewController.m */,
+				CD58585C1CA0354600CC753D /* Main.storyboard */,
+				CD58585F1CA0354600CC753D /* Assets.xcassets */,
+				CD58589D1CA10FDB00CC753D /* vocal.mp3 */,
+				CD5858861CA0356000CC753D /* lll.Krc */,
+				CD5858611CA0354600CC753D /* LaunchScreen.storyboard */,
+				CD5858641CA0354600CC753D /* Info.plist */,
+				CD5858531CA0354600CC753D /* Supporting Files */,
+			);
+			path = "高仿酷狗音乐歌词逐渐字播放";
+			sourceTree = "<group>";
+		};
+		CD5858531CA0354600CC753D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD5858541CA0354600CC753D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD58586C1CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD58586D1CA0354600CC753D /* _____________Tests.m */,
+				CD58586F1CA0354600CC753D /* Info.plist */,
+			);
+			path = "高仿酷狗音乐歌词逐渐字播放Tests";
+			sourceTree = "<group>";
+		};
+		CD5858771CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5858781CA0354600CC753D /* _____________UITests.m */,
+				CD58587A1CA0354600CC753D /* Info.plist */,
+			);
+			path = "高仿酷狗音乐歌词逐渐字播放UITests";
+			sourceTree = "<group>";
+		};
+		FA091B529FBFCBAC740BDD53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90002BDE62BE42A79B7738C3 /* Pods.debug.xcconfig */,
+				1917C8426BA4FD1EFD24912A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD58584F1CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD58587D1CA0354600CC753D /* Build configuration list for PBXNativeTarget "高仿酷狗音乐歌词逐渐字播放" */;
+			buildPhases = (
+				D2C484220F577E7079677962 /* Check Pods Manifest.lock */,
+				CD58584C1CA0354600CC753D /* Sources */,
+				CD58584D1CA0354600CC753D /* Frameworks */,
+				CD58584E1CA0354600CC753D /* Resources */,
+				FA2548FA16138FFDCE8C60AF /* Embed Pods Frameworks */,
+				9902DEF10710498FB6D05956 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "高仿酷狗音乐歌词逐渐字播放";
+			productName = "高仿酷狗音乐歌词逐渐字播放";
+			productReference = CD5858501CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5858681CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5858801CA0354600CC753D /* Build configuration list for PBXNativeTarget "高仿酷狗音乐歌词逐渐字播放Tests" */;
+			buildPhases = (
+				CD5858651CA0354600CC753D /* Sources */,
+				CD5858661CA0354600CC753D /* Frameworks */,
+				CD5858671CA0354600CC753D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD58586B1CA0354600CC753D /* PBXTargetDependency */,
+			);
+			name = "高仿酷狗音乐歌词逐渐字播放Tests";
+			productName = "高仿酷狗音乐歌词逐渐字播放Tests";
+			productReference = CD5858691CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5858731CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5858831CA0354600CC753D /* Build configuration list for PBXNativeTarget "高仿酷狗音乐歌词逐渐字播放UITests" */;
+			buildPhases = (
+				CD5858701CA0354600CC753D /* Sources */,
+				CD5858711CA0354600CC753D /* Frameworks */,
+				CD5858721CA0354600CC753D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5858761CA0354600CC753D /* PBXTargetDependency */,
+			);
+			name = "高仿酷狗音乐歌词逐渐字播放UITests";
+			productName = "高仿酷狗音乐歌词逐渐字播放UITests";
+			productReference = CD5858741CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5858481CA0354600CC753D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ly;
+				TargetAttributes = {
+					CD58584F1CA0354600CC753D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CD5858681CA0354600CC753D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CD58584F1CA0354600CC753D;
+					};
+					CD5858731CA0354600CC753D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CD58584F1CA0354600CC753D;
+					};
+				};
+			};
+			buildConfigurationList = CD58584B1CA0354600CC753D /* Build configuration list for PBXProject "高仿酷狗音乐歌词逐渐字播放" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5858471CA0354600CC753D;
+			productRefGroup = CD5858511CA0354600CC753D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD58584F1CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放 */,
+				CD5858681CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放Tests */,
+				CD5858731CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD58584E1CA0354600CC753D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5858631CA0354600CC753D /* LaunchScreen.storyboard in Resources */,
+				CD5858871CA0356000CC753D /* lll.Krc in Resources */,
+				CD5858601CA0354600CC753D /* Assets.xcassets in Resources */,
+				CD58589E1CA10FDB00CC753D /* vocal.mp3 in Resources */,
+				CD58585E1CA0354600CC753D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5858671CA0354600CC753D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5858721CA0354600CC753D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9902DEF10710498FB6D05956 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C484220F577E7079677962 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA2548FA16138FFDCE8C60AF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD58584C1CA0354600CC753D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD58589C1CA0F5AA00CC753D /* LyricsView.m in Sources */,
+				CD58588C1CA0358F00CC753D /* KRC.m in Sources */,
+				CD58585B1CA0354600CC753D /* ViewController.m in Sources */,
+				CD5858581CA0354600CC753D /* AppDelegate.m in Sources */,
+				CD58588D1CA0358F00CC753D /* LyricsUtil.m in Sources */,
+				CD5858551CA0354600CC753D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5858651CA0354600CC753D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD58586E1CA0354600CC753D /* _____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5858701CA0354600CC753D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5858791CA0354600CC753D /* _____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD58586B1CA0354600CC753D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD58584F1CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放 */;
+			targetProxy = CD58586A1CA0354600CC753D /* PBXContainerItemProxy */;
+		};
+		CD5858761CA0354600CC753D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD58584F1CA0354600CC753D /* 高仿酷狗音乐歌词逐渐字播放 */;
+			targetProxy = CD5858751CA0354600CC753D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD58585C1CA0354600CC753D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD58585D1CA0354600CC753D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD5858611CA0354600CC753D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5858621CA0354600CC753D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD58587B1CA0354600CC753D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD58587C1CA0354600CC753D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD58587E1CA0354600CC753D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90002BDE62BE42A79B7738C3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "高仿酷狗音乐歌词逐渐字播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qmgx.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD58587F1CA0354600CC753D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1917C8426BA4FD1EFD24912A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "高仿酷狗音乐歌词逐渐字播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qmgx.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD5858811CA0354600CC753D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "高仿酷狗音乐歌词逐渐字播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qmgx.-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/高仿酷狗音乐歌词逐渐字播放.app/高仿酷狗音乐歌词逐渐字播放";
+			};
+			name = Debug;
+		};
+		CD5858821CA0354600CC753D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "高仿酷狗音乐歌词逐渐字播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qmgx.-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/高仿酷狗音乐歌词逐渐字播放.app/高仿酷狗音乐歌词逐渐字播放";
+			};
+			name = Release;
+		};
+		CD5858841CA0354600CC753D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "高仿酷狗音乐歌词逐渐字播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qmgx.-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "高仿酷狗音乐歌词逐渐字播放";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD5858851CA0354600CC753D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "高仿酷狗音乐歌词逐渐字播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qmgx.-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "高仿酷狗音乐歌词逐渐字播放";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD58584B1CA0354600CC753D /* Build configuration list for PBXProject "高仿酷狗音乐歌词逐渐字播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD58587B1CA0354600CC753D /* Debug */,
+				CD58587C1CA0354600CC753D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD58587D1CA0354600CC753D /* Build configuration list for PBXNativeTarget "高仿酷狗音乐歌词逐渐字播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD58587E1CA0354600CC753D /* Debug */,
+				CD58587F1CA0354600CC753D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5858801CA0354600CC753D /* Build configuration list for PBXNativeTarget "高仿酷狗音乐歌词逐渐字播放Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5858811CA0354600CC753D /* Debug */,
+				CD5858821CA0354600CC753D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5858831CA0354600CC753D /* Build configuration list for PBXNativeTarget "高仿酷狗音乐歌词逐渐字播放UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5858841CA0354600CC753D /* Debug */,
+				CD5858851CA0354600CC753D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD5858481CA0354600CC753D /* Project object */;
+}
