@@ -43,6 +43,11 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIImageView * imageView = [[UIImageView alloc]init];
+    imageView.frame = self.view.frame;
+    [imageView setImage:[UIImage imageNamed:@"bj_sing"]];
+    [self.view addSubview:imageView];
+    
     //拿到歌词
     NSString *path = [[NSBundle mainBundle] pathForResource:@"lll.Krc" ofType:nil];
     
@@ -92,7 +97,7 @@
     time = 0;
     LyricsView * lyricsView = [[LyricsView alloc] initWithFrame:CGRectMake(10, 100, 355, 60)];
     lyricsView.center = CGPointMake(CGRectGetWidth([UIScreen mainScreen].bounds) / 2, 200);
-    lyricsView.backgroundColor = [UIColor grayColor];
+    lyricsView.backgroundColor = [UIColor clearColor];
     //传过去两个lab的字体大小
     lyricsView.font = [UIFont systemFontOfSize:16];
     
