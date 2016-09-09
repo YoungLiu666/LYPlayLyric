@@ -139,7 +139,7 @@
 {
     UIButton * playBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.view addSubview:playBtn];
-    playBtn.frame = CGRectMake(0,H-60, 100, 60);
+    playBtn.frame = CGRectMake(5,H-60, 100, 60);
     [playBtn addTarget:self action:@selector(playBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     playBtn.selected = NO;
     [playBtn setTitle:@"播放" forState:UIControlStateNormal];
