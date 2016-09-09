@@ -143,13 +143,15 @@
 -(void)createPlayBtn
 {
     UIButton * playBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    playBtn.layer.masksToBounds = YES;
+    playBtn.layer.cornerRadius = 30;
     [self.view addSubview:playBtn];
-    playBtn.frame = CGRectMake(5,H-60, 100, 60);
+    playBtn.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2-30,H-60, 60, 60);
     [playBtn addTarget:self action:@selector(playBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     playBtn.selected = NO;
     [playBtn setTitle:@"播放" forState:UIControlStateNormal];
     [playBtn setTitle:@"停止" forState:UIControlStateSelected];
-    playBtn.backgroundColor = [UIColor redColor];
+    playBtn.backgroundColor = [UIColor greenColor];
 }
 
 //播放结束的时候会被调用
