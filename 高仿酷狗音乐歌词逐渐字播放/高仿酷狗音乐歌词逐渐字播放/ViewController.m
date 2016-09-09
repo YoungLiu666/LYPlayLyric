@@ -43,11 +43,6 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImageView * imageView = [[UIImageView alloc]init];
-    imageView.frame = self.view.frame;
-    [self.view addSubview:imageView];
-    [imageView setImage:[UIImage imageNamed:@"bj_sing"]];
-    
     //拿到歌词
     NSString *path = [[NSBundle mainBundle] pathForResource:@"lll.Krc" ofType:nil];
     
@@ -97,7 +92,7 @@
     time = 0;
     LyricsView * lyricsView = [[LyricsView alloc] initWithFrame:CGRectMake(10, 100, 355, 60)];
     lyricsView.center = CGPointMake(CGRectGetWidth([UIScreen mainScreen].bounds) / 2, 200);
-    lyricsView.backgroundColor = [UIColor clearColor];
+    lyricsView.backgroundColor = [UIColor grayColor];
     //传过去两个lab的字体大小
     lyricsView.font = [UIFont systemFontOfSize:16];
     
@@ -143,15 +138,13 @@
 -(void)createPlayBtn
 {
     UIButton * playBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    playBtn.layer.masksToBounds = YES;
-    playBtn.layer.cornerRadius = 30;
-    playBtn.backgroundColor = [UIColor greenColor];
     [self.view addSubview:playBtn];
-    playBtn.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2-30,H-60, 60, 60);
+    playBtn.frame = CGRectMake(0,H-60, 100, 60);
     [playBtn addTarget:self action:@selector(playBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     playBtn.selected = NO;
     [playBtn setTitle:@"播放" forState:UIControlStateNormal];
     [playBtn setTitle:@"停止" forState:UIControlStateSelected];
+    playBtn.backgroundColor = [UIColor redColor];
 }
 
 //播放结束的时候会被调用
