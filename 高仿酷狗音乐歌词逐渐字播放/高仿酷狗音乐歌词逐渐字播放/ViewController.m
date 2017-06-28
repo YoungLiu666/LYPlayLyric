@@ -204,7 +204,7 @@
     for (int i=0; i<_startTimeArray.count; i++) {
         int startTime = [_startTimeArray[i] intValue];
         float currentTime = startTime*1.0/1000;
-        if (currentTime - _player.currentTime>=0 && currentTime - _player.currentTime<=0.02) {
+        if (currentTime - _player.currentTime>=0 && currentTime - _player.currentTime<=0.2) {
             [self changeLineWithNmu:i];
         }
         
